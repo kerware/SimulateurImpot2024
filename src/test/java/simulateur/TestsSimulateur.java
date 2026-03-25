@@ -28,7 +28,7 @@ public class TestsSimulateur {
         return Stream.of(
                 Arguments.of(24000, "CELIBATAIRE", 0, 0, false, 1),
                 Arguments.of(24000, "CELIBATAIRE", 1, 0, false, 1.5),
-                Arguments.of(24000, "CELIBATAIRE", 2, 0, false, 2),
+                Arguments.of(24000, "CELIBATAIRE", 2, 0, false, 2,5),
                 Arguments.of(24000, "CELIBATAIRE", 3, 0, false, 3),
                 Arguments.of(24000, "MARIE", 0, 0, false, 2),
                 Arguments.of(24000, "PACSE", 0, 0, false, 2),
